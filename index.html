@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffe7ef">
+    <title>Un detallito para ti 🎀</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="wrap">
+    <nav class="topbar">
+        <span class="logo" id="barraIzq"></span>
+        <span id="barraDer"></span>
+    </nav>
+
+    <header class="hero" id="inicio">
+        <div id="floaters" aria-hidden="true"></div>
+
+        <div class="hero-card reveal">
+            <div class="tape"></div>
+            <span class="kicker" id="kicker"></span>
+            <h1 id="titulo"></h1>
+            <p id="subtitulo"></p>
+            <button class="primary" id="btnInicio"></button>
+        </div>
+    </header>
+</div>
+
+<div class="ribbon" aria-hidden="true"><div class="track" id="track"></div></div>
+
+<div class="wrap">
+
+    <section class="section" id="mensaje">
+        <div class="section-head reveal" data-head="carta">
+            <span class="kicker"></span><h2></h2><p></p>
+        </div>
+        <article class="paper message reveal" id="carta"></article>
+    </section>
+
+    <!-- La sección de Gustos ha sido eliminada -->
+
+    <section class="section" id="album">
+        <div class="section-head reveal" data-head="album">
+            <span class="kicker"></span><h2></h2><p></p>
+        </div>
+        <div class="polaroids" id="polaroids"></div>
+    </section>
+
+    <section class="section" id="tablero">
+        <div class="section-head reveal" data-head="tablero">
+            <span class="kicker"></span><h2></h2><p></p>
+        </div>
+        <div class="board reveal" id="board"></div>
+        <p class="board-hint"><span id="hintTablero"></span><button class="ghost" id="btnMezclar" type="button"></button></p>
+    </section>
+
+    <section class="section" id="sorpresa">
+        <div class="section-head reveal" data-head="sorpresa">
+            <span class="kicker"></span><h2></h2>
+        </div>
+        <div class="surprise reveal">
+            <button class="gift" id="gift" type="button" aria-label="Abrir sorpresa">🎀</button>
+            <p id="sorpresaTexto"></p>
+            <button class="primary" id="reveal" type="button" aria-expanded="false"></button>
+            <div class="hidden-note" id="hiddenNote"></div>
+        </div>
+    </section>
+
+    <footer id="pie"></footer>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+    <button class="close" id="lbClose" type="button" aria-label="Cerrar">✕</button>
+    <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+</div>
+
+<!-- Etiqueta de audio -->
+<audio id="musicaFondo" loop>
+    <source src="HPD.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
