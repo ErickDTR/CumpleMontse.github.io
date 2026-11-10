@@ -37,12 +37,12 @@ const CONFIG = {
         firma: "— Con cariño, Erick ♡"
     },
 
-    /* ── FOTO DE LA PERSONA ── */
+   /* ── FOTO DE LA PERSONA ── */
     fotos: [
         { src: "Montse.jpeg", pie: "un bonito recuerdo ♡" }
     ],
 
-    /* ── STICKERS (Sin carpeta 'stickers/') ── */
+    /* ── STICKERS (Nombres directos sin 'stickers/') ── */
     stickers: [
         { imagen: "bellota.png", alt: "Bellota" },
         { imagen: "burbuja.png", alt: "Burbuja" },
