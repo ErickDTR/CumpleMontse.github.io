@@ -37,27 +37,27 @@ const CONFIG = {
         firma: "— Con cariño, Erick ♡"
     },
 
-    /* ── FOTO DE LA PERSONA (Una sola foto destacada) ── */
+    /* ── FOTO DE LA PERSONA ── */
     fotos: [
-        { src: "/Montse.jpeg", pie: "" }  // Coloca aquí la ruta de la foto, ej. "fotos/persona.jpg"
+        { src: "Montse.jpeg", pie: "un bonito recuerdo ♡" }
     ],
-    notaFotos: "",
 
-    /* ── STICKERS (Rutas con ./stickers/ y respetando mayúsculas) ── */
+    /* ── STICKERS (Sin carpeta 'stickers/') ── */
     stickers: [
-        { imagen: "/bellota.png", alt: "Bellota" },
-        { imagen: "/burbuja.png", alt: "Burbuja" },
-        { imagen: "/bombon.png", alt: "Bombón" },
-        { imagen: "/Gojo.png", alt: "Gojo" },
-        { imagen: "/nobora.png", alt: "Nobara" },
-        { imagen: "/nezuko.png", alt: "Nezuko" },
-        { imagen: "/tanjiro.png", alt: "Tanjiro" },
-        { imagen: "/zenitsu.png", alt: "Zenitsu" },
+        { imagen: "bellota.png", alt: "Bellota" },
+        { imagen: "burbuja.png", alt: "Burbuja" },
+        { imagen: "bombon.png", alt: "Bombón" },
+        { imagen: "Gojo.png", alt: "Gojo" },
+        { imagen: "nobora.png", alt: "Nobara" },
+        { imagen: "nezuko.png", alt: "Nezuko" },
+        { imagen: "tanjiro.png", alt: "Tanjiro" },
+        { imagen: "zenitsu.png", alt: "Zenitsu" },
         { emoji: "🌸" },
         { emoji: "✨" },
         { emoji: "🎀" },
         { emoji: "💗" }
     ],
+   
     textoTablero: "Arrastra los stickers y acomódalos como quieras ✨",
     botonMezclar: "Mezclar 🎲",
 
